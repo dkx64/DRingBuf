@@ -30,6 +30,7 @@ public:
         return item;
     }
     T get(size_t index) {return data[(read+index)%max];};
+    T get_from_tail(size_t index) (return data[(write-index)%max];);
     T front() { return data[read]; };
     size_t size() {return count;};
     bool is_empty() {return count == 0;};
