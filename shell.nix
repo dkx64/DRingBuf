@@ -1,9 +1,9 @@
 let
-    npkgs = import <nixpkgs> {};
+    pkgs = import <nixpkgs> {};
 in pkgs.mkShell {
-  buildInputs =[
+  buildInputs = with pkgs; [
     cmake
-    clangd
+    clang-tools
     ninja
   ];
 }
