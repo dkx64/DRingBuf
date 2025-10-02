@@ -1,6 +1,5 @@
 #include <cstddef>
 #include <cstdio>
-#include <iostream>
 #include <stdexcept>
 #include <vector>
 
