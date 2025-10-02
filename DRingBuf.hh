@@ -7,7 +7,7 @@ template <typename T> class DRingBuf {
 public:
     DRingBuf<T>(std::size_t size) :
         read(0),
-        write(0),
+        write(size),
         count(0),
         max(size)
     {

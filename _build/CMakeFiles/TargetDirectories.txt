@@ -1,0 +1,6 @@
+/home/dylan/Desktop/dringbuf/_build/CMakeFiles/edit_cache.dir
+/home/dylan/Desktop/dringbuf/_build/CMakeFiles/rebuild_cache.dir
+/home/dylan/Desktop/dringbuf/_build/CMakeFiles/list_install_components.dir
+/home/dylan/Desktop/dringbuf/_build/CMakeFiles/install.dir
+/home/dylan/Desktop/dringbuf/_build/CMakeFiles/install/local.dir
+/home/dylan/Desktop/dringbuf/_build/CMakeFiles/install/strip.dir
