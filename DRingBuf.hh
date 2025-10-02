@@ -29,6 +29,7 @@ public:
         read = (read + 1) % max;
         return item;
     }
+    T front() { return data[read]; };
     size_t size() {return count;};
     bool is_empty() {return count == 0;};
     bool is_full() { return max == count; };
